@@ -15,10 +15,12 @@ from frappe.utils import get_site_name
 def descontar_costo (doc, method):
 	if doc.is_return == True:
 		"custom logic here"
-	else
+	else:
+		pass 
 	
 @frappe.whitelist()
 def contar_costo (doc, method):
 	if doc.is_return == True:
 		"custom logic here"
-	else
+	else:
+		pass 
