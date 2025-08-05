@@ -8,7 +8,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch main
+bench get-app https://github.com/jorux/fix_nc_gt.git --branch main
 bench install-app fix_nc_gt
 ```
 
