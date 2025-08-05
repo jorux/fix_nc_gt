@@ -136,7 +136,11 @@ app_license = "mit"
 # Document Events
 # ---------------
 # Hook on document methods and events
-
+doc_events = {
+    "Sales Invoice": {
+        "on_submit": ["factura_electronica.api.pos_calculations"],
+		"on_cancel": ["factura_electronica.api.pos_calculations"]
+    }
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
