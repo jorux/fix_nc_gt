@@ -140,7 +140,7 @@ doc_events = {
     "Sales Invoice": {
         "on_submit": ["fix_nc_gt.fix.pos_calculations"],
 		"on_cancel": ["fix_nc_gt.fix.pos_calculations"]
-    }
+    }}
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
